@@ -1,0 +1,25 @@
+{
+  "name": "biblioteca-exemplo",
+  "version": "0.0.1",
+  "repository": "https://github.com/raphaelratuczne/biblioteca-exemplo.git",
+  "author": "Raphael Ratuczne <raphaelratuczne@gmail.com>",
+  "private": true,
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/biblioteca-exemplo.umd.js",
+  "module": "fesm5/biblioteca-exemplo.js",
+  "es2015": "fesm2015/biblioteca-exemplo.js",
+  "esm5": "esm5/biblioteca-exemplo.js",
+  "esm2015": "esm2015/biblioteca-exemplo.js",
+  "fesm5": "fesm5/biblioteca-exemplo.js",
+  "fesm2015": "fesm2015/biblioteca-exemplo.js",
+  "typings": "biblioteca-exemplo.d.ts",
+  "metadata": "biblioteca-exemplo.metadata.json",
+  "sideEffects": false
+}
