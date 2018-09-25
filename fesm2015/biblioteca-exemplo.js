@@ -62,7 +62,7 @@ TesteComponent.decorators = [
     { type: Component, args: [{
                 selector: 'ble-teste',
                 template: "<div class=\"teste\">\n  <p>\n    <ng-content></ng-content>\n  </p>\n  <div class=\"div-data-img\">{{ data }}</div>\n</div>\n",
-                styles: [".teste{font-size:20px}.teste p{color:green}.teste .div-data-img{color:#00f;display:block;width:250px;height:140px;background-image:url(assets/biblioteca-exemplo/images/angular6-logo.jpg);background-size:contain}"]
+                styles: [".teste{font-size:20px}.teste p{color:green}.teste .div-data-img{color:#00f;display:block;width:250px;height:140px;background-image:url(node_modules/biblioteca-exemplo/assets/images/angular6-logo.jpg);background-size:contain}"]
             }] }
 ];
 /** @nocollapse */
